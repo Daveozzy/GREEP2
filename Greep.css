@@ -1,0 +1,75 @@
+body {
+  background-color: #c5fff8;
+  font-family: sedan;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: none;
+  border-radius: 10px;
+  width: 305px;
+}
+
+li {
+  padding-left: 10px;
+  line-height: 1.8;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  margin-top: 0;
+  display: inline-block;
+  position: relative;
+  right: -18px;
+}
+a {
+  text-decoration: none;
+  color: #41b06e;
+}
+
+a:hover {
+  color: #0b666a;
+}
+
+.first-section {
+  background-color: #41b06e;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  /* padding: px; */
+}
+
+img {
+  display: inline-block;
+  position: relative;
+  bottom: -20px;
+  left: 15px;
+}
+
+.first {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke: 0.8px green;
+  opacity: 0.8;
+}
+
+.fifth {
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke: 0.8px green;
+  font-size: 35px;
+  opacity: 0.8;
+}
