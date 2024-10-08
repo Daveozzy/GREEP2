@@ -26,14 +26,15 @@ h2 {
   display: inline-block;
   position: relative;
   right: -18px;
+  color: #F4F6FF;
 }
 a {
   text-decoration: none;
-  color: #41b06e;
+  color: #243642;
 }
 
 a:hover {
-  color: #0b666a;
+  color: #1E3E62;
 }
 
 .first-section {
